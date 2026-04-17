@@ -1,0 +1,13 @@
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]  
+# E: 스타일
+# F: 오류
+# I: import 정리
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
