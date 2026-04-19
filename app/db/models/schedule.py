@@ -13,3 +13,4 @@ class Schedule(BaseModel):
     is_completed = Column(Boolean, default=False)
     start_time = Column(DateTime)
     end_time = Column(DateTime)
+    contents = Column(String)
